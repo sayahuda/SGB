@@ -2,9 +2,14 @@
 session_start();
 set_time_limit(0);
 error_reporting(0);
-$refcode = "NYARJI";
-$jml = 100;
-include 'Signature.php';
+echo "THANKS SGB TEAM\n";
+echo "Edited by Wahyu Arif P x SGB YK.\n";
+echo "For Terminal.";
+echo "\nKode Reff      : ";
+$refcode = trim(fgets(STDIN, 1024));
+echo "\nJumlah      : ";
+$jml = trim(fgets(STDIN, 1024));
+include 'sgbyk.php';
 	if(isset($refcode))
 	{
 		ob_implicit_flush(1);
